@@ -307,7 +307,7 @@ class GoogleAnalyticsStream(Stream):
                     "dateRanges": [
                         {"startDate": state_filter, "endDate": self.end_date}
                     ],
-                    "pageSize": "1000",
+                    "pageSize": "100000",
                     "pageToken": pageToken,
                     "metrics": report_definition["metrics"],
                     "dimensions": report_definition["dimensions"],
